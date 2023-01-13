@@ -1,0 +1,77 @@
+*{
+	color: white;
+	font-family: "Bebas Neue";
+}
+.user{
+	display: flex;
+	flex-direction: column;
+	width: 421px;
+	margin-left: 64px;
+	margin-right: 130px;
+}
+.noMargin{
+	margin-left: 0;
+}
+.Name{
+	
+		font-size: 20px;
+		font-weight: 700;
+	
+}
+
+.Part{
+	color:white;
+	font-size: 20px;
+}
+.Beta{
+	
+	color: rgba(231, 86, 38, 1);
+
+		font-size: 30px;
+		
+}
+.email{
+	margin-bottom: 32px;
+}
+.logo img{
+	position: relative;
+}
+.logo span{
+	position: absolute;
+	left:150px;
+	top: 24px;
+}
+.head{
+	margin: 15px 64px 0 64px	;
+	display: flex;
+	justify-content: space-between;
+}
+.account{
+	color:rgba(231, 86, 38, 1);
+		font-size: 18px;
+		font-weight: 700;
+		/* line-height: 22px; */
+		
+}
+.Users{
+	display: flex;
+	justify-content: space-between;
+}
+.Wallets{
+	display: grid;
+	grid-template-columns: 28% 35% 37%;
+}
+.Wallets span{
+	font-size: 14px;
+}
+.main{
+	display: flex;
+	
+}
+.Wall{
+	border:solid 1px;
+	border-left: white;
+	border-right: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

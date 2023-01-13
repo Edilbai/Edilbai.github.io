@@ -1,0 +1,53 @@
+.btn{
+	font-family: 'Bebas Neue';
+	width: 148px;
+	height: 38px;
+	border:solid rgba(231, 86, 38, 1);
+	background-color: rgba(231, 86, 38, 1);
+	border-radius: 30px;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 120%;
+}
+.btn_meta{
+	width: 211px;
+
+}
+.ipt{
+	width: 421px;
+	height: 42px;
+	border:1px solid rgba(255, 255, 255, 1);
+	font-style:  rgba(255, 255, 255, 1);;
+	background-color: black;
+border-radius: 30px;
+}
+.click {
+	display: none;
+	z-index: 1;
+}
+
+.window {
+	z-index: 0;
+	position: absolute;
+	
+	
+width: 1300px;
+height: 2000px; 
+
+}
+
+.window_wrapper {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(29, 28, 28);
+	width: 500px;
+	height: 330px;
+	text-align: center;
+}
+.long {
+	margin: 50px;
+	width: 200px;
+}

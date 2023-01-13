@@ -1,0 +1,20 @@
+
+.main_ipt{
+	height: 250px;
+	margin-bottom: 28px;
+	margin-left: 41px;
+	display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+}
+
+.main_button{
+	height: 250px;
+	margin-bottom: 32px;
+		margin-left: 41px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content:space-evenly;
+}
+
